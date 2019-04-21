@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="CSS_plaza_kamera.css">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Plaza kamera</title>
 </head>
 
 <body>
-    <div class="header">
+    <div class="header-up">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="https://www.plazakamera.com">
@@ -25,15 +26,24 @@
                     <input type="text" class="form-control pencarian" placeholder="Cari Produk / search" id="textbox">
                 </div>
                 <div class="dropdown">
-                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Account
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a href="#" class="dropdown-item">Register</a>
-                        <a href="#" class="dropdown-item">Login</a>
+                    <button type="button" class="btn btn-primary" data-toggle="dropdown" data-target="#dropdown1"><i
+                            class="fas fa-user"></i></button>
+                    <div class="dropdown-menu" id="dropdown1">
+                        <a href="#" class="dropdown-item">Daftar / Login</a>
+                    </div>
+                    <button type="button" class="btn btn-primary" data-toggle="dropdown"
+                        data-target="#dropdownMenuLink2"><i class="fas fa-shopping-cart"></i> Items (0)</button>
+                    <div class="dropdown-menu" id="dropdownMenuLink2">
+                        <a href="#" class="dropdown-item">Tidak ada daftar keranjang</a>
                     </div>
                 </div>
+            </nav>
+        </div>
+    </div>
+    <div class="header-down">
+        <div class="container">
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+
             </nav>
         </div>
     </div>
