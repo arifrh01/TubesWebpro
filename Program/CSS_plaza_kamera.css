@@ -11,6 +11,6 @@
 .navbar-nav a:hover{
     text-decoration: underline;
 }
-.kategoriBelanja a:hover{
-    color: orange;
+.blog button:hover{
+    background-color: #FFA51F;
 }
