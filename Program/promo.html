@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="CSS_plaza_kamera.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Plaza kamera</title>
+</head>
+
+<body>
+    <div class="header-up">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="https://www.plazakamera.com">
+                    <img src="https://www.plazakamera.com/wp-content/uploads/2018/07/logo-plazakamera-fixed.png"
+                        alt="Plaza Kamera Logo" id="logo">
+                </a>
+                <div class="col-md-7">
+                    <input type="text" class="form-control pencarian" placeholder="Cari Produk / search" id="textbox">
+                </div>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-primary" style="background-color: #064557"
+                        data-toggle="dropdown" data-target="#dropdown1"><i class="fas fa-user"></i></button>
+                    <div class="dropdown-menu" id="dropdown1">
+                        <a href="#" class="dropdown-item">Daftar / Login</a>
+                    </div>
+                    <button type="button" class="btn btn-primary" style="background-color: #064557"
+                        data-toggle="dropdown" data-target="#dropdownMenuLink2"><i class="fas fa-shopping-cart"></i>
+                        Items (0)</button>
+                    <div class="dropdown-menu" id="dropdownMenuLink2">
+                        <a href="#" class="dropdown-item">Tidak ada daftar keranjang</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="header-down">
+        <nav class="navbar navbar-light navbar-expand-lg" style="background-color: #064557;">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle Navigation">
+                    <span class="navbar-toggle-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav"
+                        style="margin-bottom: -5px; margin-top: -5px; font-family: sans-serif; font-size: 13px;">
+                        <a class="nav-item nav-link active" href="<?= site_url('Home') ?>"
+                            style="border-right: 1px solid white; color: white;">Home <span
+                                class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="<?= site_url('Category') ?>"
+                            style="color:white; border-right: 1px solid white;">Kategori</a>
+                        <a class="nav-item nav-link" href="<?= site_url('newProduct') ?>"
+                            style="color:white; border-right: 1px solid white;">Produk Terbaru</a>
+                        <a class="nav-item nav-link" href="<?= site_url('Promotion') ?>"
+                            style="color:white; border-right: 1px solid white;">Promo</a>
+                        <a class="nav-item nav-link" href="#"
+                            style="color:white; border-right: 1px solid white;">Blog</a>
+                        <a class="nav-item nav-link" href="#"
+                            style="color:white; border-right: 1px solid white;">Inquiry B2B</a>
+                        <a class="nav-item nav-link" href="#" style="color:white;">Hubungi Kami</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <br>
+    <div class="tulisanPromo">
+        <div class="container" style="margin-top:25px;">
+            <p style="font-family:Boston; font-size:30px; line-height: 25px; text-transform: capitalize; 
+            font-weight:bold;">Promo</p>
+        </div>
+    </div>
+    <div class="promoProduk">
+        <div class="container" style="border: 0.25px solid #E0E0E0; margin-top: 40px;">
+            <div class="tulisanPromoStabilizer">
+                <div class="container">
+                    <p style="font-family: Boston; font-size: 18px; font-weight: bold; margin-top: 30px;">Promo
+                        Stabilizer (01 April-30 April 2019)</p>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <a href="#">
+                    <div class="card"
+                        style="width: 190px; height: 190px; border: 1px solid #dddddd; max-width: 100%; display: inline-block; margin-left: 15px;">
+                        <div class="gambar">
+                            <img src="https://www.plazakamera.com/wp-content/uploads/2014/11/OwlDolly-Mini-Stabilizer-S40-Carbon-210x210.jpg"
+                                class="card-img-top" alt="Gambar16">
+                            <span class="badge badge-pill badge-danger"
+                                style="position: absolute; font-family: arial; margin-top: -170px; margin-left: 130px;">-40%</span>
+                        </div>
+                        <div class="namaBarang"
+                            style="text-align: center; color: black; font-family: sans-serif; font-size: 13px;">
+                            <p style="letter-spacing: 0.8px; margin-top: 15px;">
+                                OwlDolly Mini Stabilizer S40</p>
+                            <p style="margin-top: -18px; max-width: 100%;">Carbon</p>
+                        </div>
+                        <div class="harga" style="margin-top: -10px; text-align: center; font-family: sans-serif">
+                            <p
+                                style="display: inline; font-size: 13px; color: #CCCCCC; text-align: center; text-decoration: line-through; margin-top: -14px; font-family: sans-serif;">
+                                Rp 1.120.000</p>
+                            <p
+                                style="display: inline; font-size: 13px; margin-top: -15px; text-align: center; color: black; font-family: sans-serif;">
+                                Rp 1.045.000</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="card"
+                        style="width: 190px; height: 190px; border: 1px solid #dddddd; max-width: 100%; display: inline-block; margin-left: 15px;">
+                        <div class="gambar">
+                            <img src="https://www.plazakamera.com/wp-content/uploads/2018/02/Jual-Video-Accessories-Stabilizer-Kamera-Zhiyun-Crane-Plus-Handheld-Gimbal-Stabilizer-Harga-Murah.jpg"
+                                class="card-img-top" alt="Gambar16">
+                        </div>
+                        <div class="namaBarang"
+                            style="text-align: center; color: black; font-family: sans-serif; font-size: 13px;">
+                            <p style="letter-spacing: 0.8px; margin-top: 15px;">
+                                Zhiyun Crane Plus Handheld</p>
+                            <p style="margin-top: -18px; max-width: 100%;">Gimbal Stabilizer</p>
+                        </div>
+                        <div class="harga" style="margin-top: -10px; text-align: center; font-family: sans-serif;">
+                            <p
+                                style="display: inline; font-size: 13px; color: black; text-align: center; margin-top: -14px; font-family: sans-serif;">
+                                Rp 5.450.000</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="card"
+                        style="width: 190px; height: 190px; border: 1px solid #dddddd; max-width: 100%; display: inline-block; margin-left: 15px;">
+                        <div class="gambar">
+                            <img src="https://www.plazakamera.com/wp-content/uploads/2018/03/jual-gimbal-Moza-AirCross-Gimbal-for-Mirrorless-harga-murah-210x210.jpg"
+                                style="width: 188px; height: 188px;">
+                            <span class="badge badge-pill badge-danger"
+                                style="position: absolute; font-family: arial; margin-top: -170px; margin-left: 130px;">-5%</span>
+                        </div>
+                        <div class="namaBarang"
+                            style="text-align: center; color: black; font-family: sans-serif; font-size: 13px;">
+                            <p style="letter-spacing: 0.8px; margin-top: 15px;">
+                                Moza AirCross Gimbal For</p>
+                            <p style="margin-top: -18px; max-width: 100%;">Mirrorless</p>
+                        </div>
+                        <div class="harga" style="margin-top: -10px; text-align: center; font-family: sans-serif">
+                            <p
+                                style="display: inline; font-size: 13px; color: #CCCCCC; text-align: center; text-decoration: line-through; margin-top: -14px; font-family: sans-serif;">
+                                Rp 5.500.000</p>
+                            <p
+                                style="display: inline; font-size: 13px; margin-top: -15px; text-align: center; color: black; font-family: sans-serif;">
+                                Rp 5.200.000</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="card"
+                        style="width: 190px; height: 190px; border: 1px solid #dddddd; max-width: 100%; display: inline-block; margin-left: 15px;">
+                        <div class="gambar">
+                            <img src="https://www.plazakamera.com/wp-content/uploads/2018/08/jual-Moza-Air-DSLR-Gimbal-Stabilizer-Plus-Remote-harga-murah-300x300.jpg"
+                                class="card-img-top" alt="Gambar16">
+                            <span class="badge badge-pill badge-danger"
+                                style="position: absolute; font-family: arial; margin-top: -170px; margin-left: 130px;">-7%</span>
+                        </div>
+                        <div class="namaBarang"
+                            style="text-align: center; color: black; font-family: sans-serif; font-size: 13px;">
+                            <p style="letter-spacing: 0.8px; margin-top: 15px;">
+                                Moza Air DSLR Gimbal</p>
+                            <p style="margin-top: -18px; max-width: 100%;">Stabilizer Plus Remote</p>
+                        </div>
+                        <div class="harga" style="margin-top: -10px; text-align: center; font-family: sans-serif;">
+                            <p
+                                style="display: inline; font-size: 13px; color: #CCCCCC; text-align: center; text-decoration: line-through; margin-top: -14px; font-family: sans-serif;">
+                                Rp 7.350.000</p>
+                            <p
+                                style="display: inline; font-size: 13px; color: black; text-align: center; margin-top: -14px; font-family: sans-serif;">
+                                Rp 6.850.000</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="card"
+                        style="width: 190px; height: 190px; border: 1px solid #dddddd; max-width: 100%; display: inline-block; margin-left: 15px;">
+                        <div class="gambar">
+                            <img src="https://www.plazakamera.com/wp-content/uploads/2018/08/jual-Moza-Air-DSLR-Gimbal-Stabilizer-Plus-Remote-harga-murah-300x300.jpg"
+                                class="card-img-top" alt="Gambar16">
+                            <span class="badge badge-pill badge-danger"
+                                style="position: absolute; font-family: arial; margin-top: -170px; margin-left: 130px;">-11%</span>
+                        </div>
+                        <div class="namaBarang"
+                            style="text-align: center; color: black; font-family: sans-serif; font-size: 13px;">
+                            <p style="letter-spacing: 0.8px; margin-top: 15px;">
+                                Moza</p>
+                            <p style="margin-top: -18px; max-width: 100%;"> Air 2 </p>
+                        </div>
+                        <div class="harga" style="margin-top: -10px; text-align: center; font-family: sans-serif;">
+                            <p
+                                style="display: inline; font-size: 13px; color: #CCCCCC; text-align: center; text-decoration: line-through; margin-top: -14px; font-family: sans-serif;">
+                                Rp 9.500.000</p>
+                            <p
+                                style="display: inline; font-size: 13px; color: black; text-align: center; margin-top: -14px; font-family: sans-serif;">
+                                Rp 8.500.000</p>
+                        </div>
+                    </div>
+                </a>
+                <div class="container">
+                    <div class="tombolPromoStabilizerLainnya">
+                        <a href="#">
+                            <button type="button" class="btn btn-primary"
+                                style="font-size: 13px; background-color: #064557; text-align: center; margin-left: 450px; margin-top: 40px; padding: 10px;">PROMO
+                                STABILIZER LAINNYA</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tulisanPromoSony">
+                <div class="container">
+                    <p style="font-family: Boston; font-size: 18px; font-weight: bold; margin-top: 30px;">Promo Sony (01
+                        April-30 April 2019)</p>
+                </div>
+            </div>
+            <hr>
+            <a href="#">
+                <div class="card"
+                    style="width: 190px; height: 190px; border: 1px solid #dddddd; max-width: 100%; display: inline-block; margin-left: 15px;">
+                    <div class="gambar" style="width: 180px; height: 180px;">
+                        <img src="https://www.plazakamera.com/wp-content/uploads/2015/02/Sony-Battery-Original-NP-FW50.jpg"
+                            class="card-img-top" alt="Gambar16">
+                        <span class="badge badge-pill badge-danger"
+                            style="position: absolute; font-family: arial; margin-top: -175px; margin-left: 145px;">-22%</span>
+                    </div>
+                    <div class="namaBarang"
+                        style="text-align: center; color: black; font-family: sans-serif; font-size: 12px;">
+                        <p style="letter-spacing: 0.8px; margin-top: 15px;">
+                            Sony Battery Original NP-</p>
+                        <p style="margin-top: -18px; max-width: 100%;"> FW50 </p>
+                    </div>
+                    <div class="harga"
+                        style="font-size: 12px; margin-top: -10px; text-align: center; font-family: sans-serif;">
+                        <p
+                            style="display: inline; color: #CCCCCC; text-align: center; text-decoration: line-through; margin-top: -14px; font-family: sans-serif;">
+                            Rp 899.000</p>
+                        <p
+                            style="display: inline; color: black; text-align: center; margin-top: -14px; font-family: sans-serif;">
+                            Rp 699.000</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card"
+                    style="width: 190px; height: 190px; border: 1px solid #dddddd; max-width: 100%; display: inline-block; margin-left: 15px;">
+                    <div class="gambar" style="width: 180px; height: 180px;">
+                        <img src="https://www.plazakamera.com/wp-content/uploads/2015/10/Jual-Kamera-Sony-A5100-16-50-mm-oss-harga-murah.jpg"
+                            class="card-img-top" alt="Gambar16">
+                        <span class="badge badge-pill badge-danger"
+                            style="position: absolute; font-family: arial; margin-top: -175px; margin-left: 145px;">-24%</span>
+                    </div>
+                    <div class="namaBarang"
+                        style="text-align: center; color: black; font-family: sans-serif; font-size: 12px;">
+                        <p style="letter-spacing: 0.8px; margin-top: 15px;">Sony A5100 kit 16 - 50mm</p>
+                        <p style="margin-top: -18px; max-width: 100%;"> Hitam </p>
+                    </div>
+                    <div class="harga"
+                        style="margin-top: -10px; text-align: center; font-family: sans-serif; font-size: 12px;">
+                        <p
+                            style="display: inline; color: #CCCCCC; text-align: center; text-decoration: line-through; margin-top: -14px; font-family: sans-serif;">
+                            Rp 8.499.000</p>
+                        <p
+                            style="display: inline; color: black; text-align: center; margin-top: -14px; font-family: sans-serif;">
+                            Rp 6.499.000</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card"
+                    style="width: 190px; height: 190px; border: 1px solid #dddddd; max-width: 100%; display: inline-block; margin-left: 15px;">
+                    <div class="gambar" style="width: 180px; height: 180px;">
+                        <img src="https://www.plazakamera.com/wp-content/uploads/2015/11/Jual-Kamera-Sony-A6000-16-50-mm-oss-harga-murah.jpg"
+                            class="card-img-top" alt="Gambar16">
+                        <span class="badge badge-pill badge-danger"
+                            style="position: absolute; font-family: arial; margin-top: -175px; margin-left: 145px;">-17%</span>
+                    </div>
+                    <div class="namaBarang"
+                        style="text-align: center; color: black; font-family: sans-serif; font-size: 12px;">
+                        <p style="letter-spacing: 0.8px; margin-top: 15px;">Sony A6000 kit 16 - 50mm</p>
+                        <p style="margin-top: -18px; max-width: 100%;"> Hitam </p>
+                    </div>
+                    <div class="harga"
+                        style="font-size: 12px; margin-top: -10px; text-align: center; font-family: sans-serif;">
+                        <p
+                            style="display: inline; color: #CCCCCC; text-align: center; text-decoration: line-through; margin-top: -14px; font-family: sans-serif;">
+                            Rp 8.999.000</p>
+                        <p
+                            style="display: inline; color: black; text-align: center; margin-top: -14px; font-family: sans-serif;">
+                            Rp 7.499.000</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card"
+                    style="width: 190px; height: 190px; border: 1px solid #dddddd; max-width: 100%; display: inline-block; margin-left: 15px;">
+                    <div class="gambar" style="width: 177px; height: 177px;">
+                        <img src="https://www.plazakamera.com/wp-content/uploads/2015/03/Jual-Lensa-Sony-35mm-f-1.8-OSS-Alpha-E-mount-Prime-Lensa.jpg"
+                            class="card-img-top" alt="Gambar16">
+                        <span class="badge badge-pill badge-danger"
+                            style="position: absolute; font-family: arial; margin-top: -175px; margin-left: 145px;">-11%</span>
+                    </div>
+                    <div class="namaBarang"
+                        style="text-align: center; color: black; font-family: sans-serif; font-size: 12px;">
+                        <p style="letter-spacing: 0.8px; margin-top: 15px;">Sony 35mm F/1.8 OSS Alpha</p>
+                        <p style="margin-top: -18px; max-width: 100%;"> E-Mount Prime </p>
+                    </div>
+                    <div class="harga" style="margin-top: -10px; text-align: center; font-family: sans-serif;">
+                        <p
+                            style="display: inline; font-size: 13px; color: #CCCCCC; text-align: center; text-decoration: line-through; margin-top: -14px; font-family: sans-serif;">
+                            Rp 4.499.000</p>
+                        <p
+                            style="display: inline; font-size: 13px; color: black; text-align: center; margin-top: -14px; font-family: sans-serif;">
+                            Rp 3.999.000</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card"
+                    style="width: 190px; height: 190px; border: 1px solid #dddddd; max-width: 100%; display: inline-block; margin-left: 15px;">
+                    <div class="gambar" style="width: 180px; height: 180px;">
+                        <img src="https://www.plazakamera.com/wp-content/uploads/2015/10/Jual-Lensa-Sony-E-PZ-18-105mm-f-4-G-OSS.jpg"
+                            class="card-img-top" alt="Gambar16" style="width: 180px; height: 180px;">
+                        <span class="badge badge-pill badge-danger"
+                            style="position: absolute; font-family: arial; margin-top: -175px; margin-left: 145px;">-21%</span>
+                    </div>
+                    <div class="namaBarang"
+                        style="text-align: center; color: black; font-family: sans-serif; font-size: 12px;">
+                        <p style="letter-spacing: 0.8px; margin-top: 15px;">Sony E PZ 18-105mm F/4 G</p>
+                        <p style="margin-top: -18px; max-width: 100%;"> OSS </p>
+                    </div>
+                    <div class="harga"
+                        style="font-size: 12px; margin-top: -10px; text-align: center; font-family: sans-serif;">
+                        <p
+                            style="display: inline; color: #CCCCCC; text-align: center; text-decoration: line-through; margin-top: -14px; font-family: sans-serif;">
+                            Rp 7.199.000</p>
+                        <p
+                            style="display: inline; color: black; text-align: center; margin-top: -14px; font-family: sans-serif;">
+                            Rp 5.699.000</p>
+                    </div>
+                </div>
+            </a>
+            <div class="container">
+                <div class="tombolPromoStabilizerLainnya">
+                    <a href="#">
+                        <button type="button" class="btn btn-primary"
+                            style="font-size: 13px; background-color: #064557; text-align: center; margin-left: 450px; margin-top: 40px; padding: 10px;">PROMO
+                            SONY LAINNYA</button>
+                    </a>
+                </div>
+            </div>
+            <div class="tulisanPromoDJI">
+                <div class="container">
+                    <p style="font-family: Boston; font-size: 18px; font-weight: bold; margin-top: 30px;">Promo DJI (01
+                        April-30 April 2019)</p>
+                </div>
+            </div>
+            <a href="#">
+                <div class="card"
+                    style="width: 190px; height: 190px; border: 1px solid #dddddd; max-width: 100%; display: inline-block; margin-left: 15px;">
+                    <div class="gambar" style="width: 180px; height: 180px;">
+                        <img src="https://www.plazakamera.com/wp-content/uploads/2015/09/DJI-Phantom-3-Standard-300x300.jpg"
+                            class="card-img-top" alt="Gambar16">
+                        <span class="badge badge-pill badge-danger"
+                            style="position: absolute; font-family: arial; margin-top: -175px; margin-left: 145px;">-10%</span>
+                    </div>
+                    <div class="namaBarang"
+                        style="text-align: center; color: black; font-family: sans-serif; font-size: 12px;">
+                        <p style="letter-spacing: 0.8px; margin-top: 15px;">DJI Phantom 3</p>
+                        <p style="margin-top: -18px; max-width: 100%;">Standard</p>
+                    </div>
+                    <div class="harga"
+                        style="font-size: 12px; margin-top: -10px; text-align: center; font-family: sans-serif;">
+                        <p
+                            style="display: inline; color: #CCCCCC; text-align: center; text-decoration: line-through; margin-top: -14px; font-family: sans-serif;">
+                            Rp 7.500.000</p>
+                        <p
+                            style="display: inline; color: black; text-align: center; margin-top: -14px; font-family: sans-serif;">
+                            Rp 6.750.000</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card"
+                    style="width: 190px; height: 190px; border: 1px solid #dddddd; max-width: 100%; display: inline-block; margin-left: 15px;">
+                    <div class="gambar" style="width: 180px; height: 180px;">
+                        <img src="https://www.plazakamera.com/wp-content/uploads/2017/03/DJI-Intelligent-Flight-Battery-for-Phantom-4-Pro.jpg"
+                            class="card-img-top" alt="Gambar16">
+                        <span class="badge badge-pill badge-danger"
+                            style="position: absolute; font-family: arial; margin-top: -175px; margin-left: 145px;">-4%</span>
+                    </div>
+                    <div class="namaBarang"
+                        style="text-align: center; color: black; font-family: sans-serif; font-size: 12px;">
+                        <p style="letter-spacing: 0.8px; margin-top: 15px;">DJI Intelligent Flight Battery</p>
+                        <p style="margin-top: -18px; max-width: 100%;">For Phantom 4 Pro</p>
+                    </div>
+                    <div class="harga"
+                        style="font-size: 12px; margin-top: -10px; text-align: center; font-family: sans-serif;">
+                        <p
+                            style="display: inline; color: #CCCCCC; text-align: center; text-decoration: line-through; margin-top: -14px; font-family: sans-serif;">
+                            Rp 7.500.000</p>
+                        <p
+                            style="display: inline; color: black; text-align: center; margin-top: -14px; font-family: sans-serif;">
+                            Rp 6.750.000</p>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="card"
+                    style="width: 190px; height: 190px; border: 1px solid #dddddd; max-width: 100%; display: inline-block; margin-left: 15px;">
+                    <div class="gambar" style="width: 180px; height: 180px;">
+                        <img src="https://www.plazakamera.com/wp-content/uploads/2017/05/Jual-DJI-Inspire-2-TB-50-Intelligent-Battery-c.jpg"
+                            class="card-img-top" alt="Gambar16">
+                        <span class="badge badge-pill badge-danger"
+                            style="position: absolute; font-family: arial; margin-top: -175px; margin-left: 145px;">-1%</span>
+                    </div>
+                    <div class="namaBarang"
+                        style="text-align: center; color: black; font-family: sans-serif; font-size: 12px;">
+                        <p style="letter-spacing: 0.8px; margin-top: 15px;">DJI Inspire 2 TB-50</p>
+                        <p style="margin-top: -18px; max-width: 100%;">Intelligent Battery</p>
+                    </div>
+                    <div class="harga"
+                        style="font-size: 12px; margin-top: -10px; text-align: center; font-family: sans-serif;">
+                        <p
+                            style="display: inline; color: #CCCCCC; text-align: center; text-decoration: line-through; margin-top: -14px; font-family: sans-serif;">
+                            Rp 2.520.000</p>
+                        <p
+                            style="display: inline; color: black; text-align: center; margin-top: -14px; font-family: sans-serif;">
+                            Rp 2.490.000</p>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+    <br>
+    <div class="contactUs">
+        <div class="container-fluid" style="background-color:#064557;">
+            <div class="container" style="height: 439px; width: 1349px;">
+                <div class="akunSocialMedia">
+                    <img src="https://www.plazakamera.com/wp-content/uploads/2018/06/footer-logo-plazakamera.png" alt=""
+                        style="margin-top: 70px;">
+                    <p style="font-family: sans-serif; font-size: 16px; margin-top: 40px; color: #FFA51F;">FOLLOW US</p>
+                    <a href="https://www.instagram.com/plazakamera/"><img
+                            src="https://www.plazakamera.com/wp-content/themes/smartelect_layout3/images/sosmed-ig.png"
+                            alt="" style="width: auto; height: 37px; margin-top: -10px;"></a>
+                    <a href="https://facebook.com/plazakameraindonesia/"><img
+                            src="https://www.plazakamera.com/wp-content/themes/smartelect_layout3/images/sosmed-fb.png"
+                            alt="" style="width: auto; height: 37px; margin-top: -10px;"></a>
+                    <a href="https://www.youtube.com/channel/UCTBt0_pQJIAG2MTrAW77viq/"><img
+                            src="https://plazakamera.com/wp-content/themes/smartelect_layout3/images/sosmed-youtube.png"
+                            alt="" style="width: auto; height: 37px; margin-top: -10px;"></a>
+                </div>
+                <div class="information">
+                    <p
+                        style="color: #ffa51f; margin-left: 400px; margin-top: -160px; font-family: sans-serif; font-size: 16px;">
+                        INFORMATION</p>
+                    <a href="#"
+                        style="color: white; margin-left: 400px; font-family: sans-serif; font-size: 14px;">FAQ</a>
+                    <a href="#" style="color: white; font-family: sans-serif; font-size: 14px;">
+                        <p style="margin-left: 400px; margin-top: 5px;">Cara Belanja</p>
+                    </a>
+                    <a href="#" style="font-family: sans-serif; font-size: 14px;">
+                        <p style="color:white; margin-left: 400px; margin-top: -10px;">Informasi Cicilan</p>
+                    </a>
+                    <a href="#" style="font-family: sans-serif; font-size: 14px;">
+                        <p style="color: white; margin-left: 400px; margin-top: -10px;">Informasi Garansi</p>
+                    </a>
+                    <a href="#" style="font-family: sans-serif; font-size: 14px;">
+                        <p style="color: white; margin-left: 400px; margin-top: -10px;">Kebijakan Privasi</p>
+                    </a>
+                    <a href="#" style="font-family: sans-serif; font-size: 14px;">
+                        <p style="color: white; margin-left: 400px; margin-top: -10px;">Request Barang</p>
+                    </a>
+                    <a href="#" style="font-family: sans-serif; font-size: 14px;">
+                        <p style="color: white; margin-left: 400px; margin-top: -10px;">Konfirmasi</p>
+                        <p style="color: white; margin-left: 400px; margin-top: -21px;">Pembayaran</p>
+                    </a>
+                    <a href="#" style="font-family: sans-serif; font-size: 14px;">
+                        <p style="color: white; margin-left: 400px; margin-top: -10px;">Lupa Password</p>
+                    </a>
+                </div>
+                <div class="aboutUs">
+                    <p style="color: #ffa51f; margin-left: 650px; margin-top: -283px; font-size: 16px;">ABOUT US</p>
+                    <a href="#" style="font-family: sans-serif; font-size: 14px;">
+                        <p style="color: white; margin-left: 650px;">Tentang</p>
+                        <p style="color: white; margin-left: 650px; margin-top: -21px;">Plazakamera.com</p>
+                    </a>
+                    <a href="#" style="font-family: sans-serif; font-size: 14px;">
+                        <p style="color: white; margin-left: 650px; margin-top: -10px;">Contact Us</p>
+                    </a>
+                    <a href="#" style="font-family: sans-serif; font-size: 14px;">
+                        <p style="color: white; margin-left: 650px; margin-top: -10px;">Testimonial</p>
+                    </a>
+                </div>
+                <div class="trustMark">
+                    <p style="color:#FFA51F; margin-left: 950px; margin-top: -147px;">TRUST MARK</p>
+                    <a href="https://www.idea.or.id/trustmark/verify/eZU9AKW708wKhjFgwuJIUomL/no/">
+                        <img src="https://plazakamera.com/wp-content/themes/smartelect_layout3/images/idea.png" alt=""
+                            style="height: 116px; width: 219px; margin-left: 950px;">
+                    </a>
+                    <p style="color:#FFA51F; margin-left: 950px; margin-top: 10px;">PAYMENT</p>
+                    <a href="#">
+                        <img src="https://www.plazakamera.com/wp-content/themes/smartelect_layout3/images/payment-plazakamera.png"
+                            style="width: 219px; height: 87px; margin-left: 950px;" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" style="background-color:#064557;">
+            <div class="container" style="height: 80px; width: 1170px;">
+                <p style="color: white; margin-top: -10px;">Copyright <i class="far fa-copyright"></i> 2012 - 2019
+                    Plazakamera.com</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
